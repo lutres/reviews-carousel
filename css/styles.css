@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+html, body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+main {
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.container {
+  display: grid;
+  width: 90%;
+  padding: 1%;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.25);
+}
+.review-title h1 {
+  border-bottom: solid 5px grey;
+}
+.description {
+  width: 100%;
+}
+.email {
+  color: grey;
+}
+.contact {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.random {
+  min-width: 10%;
+  margin-top: 1%;
+  border: grey solid 2px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+}
+.random:hover {
+  box-shadow: none;
+  cursor: pointer;
+}
+.random h4 {
+  margin: 5%;
+}
+img {
+  min-height: 128px;
+  border-radius: 50%;
+}
+.switch-review button {
+  border: none;
+  color: grey;
+}
+#backward:hover, #forward:hover {
+  cursor: pointer;
+}
+h2 {
+  font-weight: lighter;
+}
